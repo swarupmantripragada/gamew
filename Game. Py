@@ -1,0 +1,57 @@
+# gamew
+import turtle
+wn=turtle.Screen()
+wn. bgcolor("black")
+t = turtle.Turtle() 
+t. shapesize(2,2,1)
+t.color("red") 
+t.shape("turtle") 
+t.penup()
+t.goto(-200,100)
+t1 = t.clone()
+t1.color("yellow")
+t1.penup()
+t1.goto(-200,-100)
+t1. penup()
+t1. goto(250,-100)
+t1. pendown()
+t1. color("red")
+t1. pensize(100)
+t1. circle(40)
+t1. penup()
+t1. goto(-200,-100)
+t1. pendown()
+t1. color("yellow")
+t. penup()
+t. goto(250,100)
+t. pendown()
+t. color("yellow")
+t. pensize(100)
+t. circle(40)
+t. penup()
+t. goto(-200,110)
+t. pendown()
+t. color("red")
+t1. pensize(2)
+t. pensize(2)
+die=[1, 2,3,4,5,6]
+for i in range(20):
+    if t. pos()>=(250,100):
+        print("player one wins")
+        break
+    elif t. pos()>=(250,100):
+        print("player two wins")
+        break
+    else:
+        t_turn = input("presss'enter'to roll the dice")
+        die_output=random.choice(die
+        )
+        print("the output is:",die_output)
+        print("no of steps:", 20*die_outcone)
+        t. fd(20*die_outcome)
+        t1_turn= input("press 'enter' to roll the die")
+        d1_output= random. choice(die)
+        print("the output is:",d1_output)
+        Print("no of steps:",20*d1_output)
+        t1.fd(20*d1_outcome)
+turtle. done()
